@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: brown;
+  display: flex;
+  height: 100px;
+  width: 750px;
+}
+.menuEsq {
+  background: cadetblue;
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+.conteudo {
+  background: chocolate;
+  display: flex;
+  height: 450px;
+  width: 450px;
+}
+.menuDir {
+  background: crimson;
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+.container {
+  width: 750px;
+  display: flex;
+}
+.center {
+  display: inline-block;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
